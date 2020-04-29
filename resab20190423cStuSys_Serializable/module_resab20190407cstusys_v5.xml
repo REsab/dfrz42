@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_resab20190407cstusys_v5" default="compile.module.resab20190407cstusys_v5">
+  <dirname property="module.resab20190407cstusys_v5.basedir" file="/module_resab20190407cstusys_v5.xml"/>
+  
+  <property name="module.jdk.home.resab20190407cstusys_v5" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.resab20190407cstusys_v5" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.resab20190407cstusys_v5" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.resab20190407cstusys_v5" value="-encoding UTF-8 -source 11 -target 11 ${compiler.args}"/>
+  
+  <property name="resab20190407cstusys_v5.output.dir" value="//../out/production/resab20190407cStuSys_v5"/>
+  <property name="resab20190407cstusys_v5.testoutput.dir" value="//../out/test/resab20190407cStuSys_v5"/>
+  
+  <path id="resab20190407cstusys_v5.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="resab20190407cstusys_v5.module.production.classpath">
+    <path refid="${module.jdk.classpath.resab20190407cstusys_v5}"/>
+  </path>
+  
+  <path id="resab20190407cstusys_v5.runtime.production.module.classpath">
+    <pathelement location="${resab20190407cstusys_v5.output.dir}"/>
+  </path>
+  
+  <path id="resab20190407cstusys_v5.module.classpath">
+    <path refid="${module.jdk.classpath.resab20190407cstusys_v5}"/>
+    <pathelement location="${resab20190407cstusys_v5.output.dir}"/>
+  </path>
+  
+  <path id="resab20190407cstusys_v5.runtime.module.classpath">
+    <pathelement location="${resab20190407cstusys_v5.testoutput.dir}"/>
+    <pathelement location="${resab20190407cstusys_v5.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.resab20190407cstusys_v5">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.resab20190407cstusys_v5">
+    <patternset refid="excluded.from.module.resab20190407cstusys_v5"/>
+  </patternset>
+  
+  <path id="resab20190407cstusys_v5.module.sourcepath">
+    <dirset dir="/">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.resab20190407cstusys_v5" depends="compile.module.resab20190407cstusys_v5.production,compile.module.resab20190407cstusys_v5.tests" description="Compile module resab20190407cStuSys_v5"/>
+  
+  <target name="compile.module.resab20190407cstusys_v5.production" depends="register.custom.compilers" description="Compile module resab20190407cStuSys_v5; production classes">
+    <mkdir dir="${resab20190407cstusys_v5.output.dir}"/>
+    <javac2 destdir="${resab20190407cstusys_v5.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.resab20190407cstusys_v5}/javac">
+      <compilerarg line="${compiler.args.resab20190407cstusys_v5}"/>
+      <bootclasspath refid="resab20190407cstusys_v5.module.bootclasspath"/>
+      <classpath refid="resab20190407cstusys_v5.module.production.classpath"/>
+      <src refid="resab20190407cstusys_v5.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.resab20190407cstusys_v5"/>
+    </javac2>
+    
+    <copy todir="${resab20190407cstusys_v5.output.dir}">
+      <fileset dir="/">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.resab20190407cstusys_v5.tests" depends="register.custom.compilers,compile.module.resab20190407cstusys_v5.production" description="compile module resab20190407cStuSys_v5; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.resab20190407cstusys_v5" description="cleanup module">
+    <delete dir="${resab20190407cstusys_v5.output.dir}"/>
+    <delete dir="${resab20190407cstusys_v5.testoutput.dir}"/>
+  </target>
+</project>

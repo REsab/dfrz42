@@ -1,0 +1,4 @@
+2019-04-14 02:23:43 a.m. [Thread: main][ Class:JDBC.jdbc >> Method: JDBC.jdbc.main(jdbc.java:41) ]
+DEBUG:数据库连接成功
+2019-04-14 02:25:39 a.m. [Thread: main][ Class:JDBC.jdbc >> Method: JDBC.jdbc.main(jdbc.java:41) ]
+DEBUG:数据库连接成功

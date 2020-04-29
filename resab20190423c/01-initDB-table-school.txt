@@ -1,0 +1,57 @@
+-- --删除旧版本 表格
+DROP TABLE
+IF EXISTS Result;
+
+DROP TABLE
+IF EXISTS Student;
+
+DROP TABLE
+IF EXISTS `Subject`;
+
+DROP TABLE
+IF EXISTS Grade;
+
+-- --建表Grade
+CREATE TABLE Grade (
+	GradeId INT (20) NOT NULL AUTO_INCREMENT COMMENT '年级编号',
+	GradeName VARCHAR (50) COMMENT '年级名',
+	PRIMARY KEY (GradeId) COMMENT '主键'
+) ENGINE = INNODB CHARSET = utf8 COMMENT '年级表';
+
+-- --建表 SUBJECT 
+CREATE TABLE `SUBJECT` (
+	SubjectId INT AUTO_INCREMENT COMMENT '科目编号',
+	SubjectName VARCHAR (20) NOT NULL COMMENT '科目名称',
+	ClassHour INT NOT NULL COMMENT '学时',
+	GradeId INT COMMENT '年级编号',
+	PRIMARY KEY (SubjectId) COMMENT '主键',
+	FOREIGN KEY (GradeId) REFERENCES Grade (GradeId)
+) ENGINE = INNODB CHARSET = utf8 COMMENT '科目表';
+
+-- -- --建表
+CREATE TABLE Student (
+	StudentId INT NOT NULL AUTO_INCREMENT COMMENT '主键自增',
+	StudentNo VARCHAR (50) NOT NULL COMMENT '学号',
+	LoginPwd VARCHAR (20) NOT NULL COMMENT '密码',
+	StudentName VARCHAR (50) NOT NULL COMMENT '姓名',
+	Sex CHAR (2) NOT NULL COMMENT '性别',
+	GradeId INT NOT NULL COMMENT '年级id',
+	Phone VARCHAR (255) NOT NULL COMMENT '手机号',
+	Addresss VARCHAR (255) COMMENT '地址',
+	BornDate datetime COMMENT '生日',
+	Email VARCHAR (50) COMMENT '电子邮件',
+	PRIMARY KEY (StudentId),
+	FOREIGN KEY (GradeId) REFERENCES Grade (GradeId)
+) ENGINE = INNODB CHARSET = utf8 COMMENT '学生表';
+
+-- --建表
+CREATE TABLE Result (
+	Id INT NOT NULL AUTO_INCREMENT COMMENT '标识列',
+	StudentNo VARCHAR (50) NOT NULL COMMENT '学号',
+	SubjectId INT NOT NULL COMMENT '所考科目',
+	StudentResult INT COMMENT '所考科目',
+	ExamDate datetime NOT NULL COMMENT '考试日期',
+	PRIMARY KEY (Id) COMMENT '主键',
+	FOREIGN KEY (SubjectId) REFERENCES Grade (GradeId)
+) ENGINE = INNODB CHARSET = utf8 COMMENT '成绩表';
+

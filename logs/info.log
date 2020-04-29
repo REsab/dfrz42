@@ -1,0 +1,24 @@
+2019-04-25 19:58:16 p.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:16) ]
+WARN:warn!!!
+2019-04-25 19:58:16 p.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:17) ]
+ERROR:error!!!
+2019-04-25 19:58:17 p.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:18) ]
+FATAL:fatal!!!
+2019-04-25 19:58:18 p.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:32) ]
+INFO:找到驱动器类名
+2019-04-25 19:58:20 p.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:50) ]
+WARN:数据库查询成功
+2019-04-25 19:58:20 p.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:56) ]
+ERROR:数据库成功接收结果
+2019-04-25 19:58:49 p.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:16) ]
+WARN:warn!!!
+2019-04-25 19:58:49 p.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:17) ]
+ERROR:error!!!
+2019-04-25 19:58:50 p.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:18) ]
+FATAL:fatal!!!
+2019-04-25 19:58:52 p.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:32) ]
+INFO:找到驱动器类名
+2019-04-25 19:58:53 p.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:50) ]
+WARN:数据库查询成功
+2019-04-25 19:58:53 p.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:56) ]
+ERROR:数据库成功接收结果

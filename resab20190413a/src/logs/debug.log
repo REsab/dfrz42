@@ -1,0 +1,42 @@
+2019-04-14 17:38:35 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:18) ]
+DEBUG:输出:20
+2019-04-14 17:38:35 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:18) ]
+DEBUG:输出:40
+2019-04-14 17:38:35 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:18) ]
+DEBUG:输出:99
+2019-04-14 17:38:35 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:18) ]
+DEBUG:输出:38
+2019-04-14 17:38:35 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:18) ]
+DEBUG:输出:58
+2019-04-14 17:38:35 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:20) ]
+DEBUG:数组下标越界,下标5
+2019-04-14 17:38:35 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:22) ]
+ERROR:Index 5 out of bounds for length 5
+2019-04-14 17:39:13 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:18) ]
+DEBUG:输出:20
+2019-04-14 17:39:13 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:18) ]
+DEBUG:输出:40
+2019-04-14 17:39:13 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:18) ]
+DEBUG:输出:99
+2019-04-14 17:39:13 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:18) ]
+DEBUG:输出:38
+2019-04-14 17:39:13 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:18) ]
+DEBUG:输出:58
+2019-04-14 17:39:13 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:20) ]
+DEBUG:数组下标越界,下标5
+2019-04-14 17:39:13 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:22) ]
+ERROR:Index 5 out of bounds for length 5
+2019-04-14 17:39:33 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:16) ]
+DEBUG:输出:20
+2019-04-14 17:39:33 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:16) ]
+DEBUG:输出:40
+2019-04-14 17:39:33 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:16) ]
+DEBUG:输出:99
+2019-04-14 17:39:33 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:16) ]
+DEBUG:输出:38
+2019-04-14 17:39:33 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:16) ]
+DEBUG:输出:58
+2019-04-14 17:39:33 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:18) ]
+DEBUG:数组下标越界,下标5
+2019-04-14 17:39:33 p.m. [Thread: main][ Class:chb05.zy.q5.Log4jTest >> Method: chb05.zy.q5.Log4jTest.main(Log4jTest.java:20) ]
+ERROR:Index 5 out of bounds for length 5

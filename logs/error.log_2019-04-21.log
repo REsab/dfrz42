@@ -1,0 +1,6 @@
+2019-04-21 17:38:12 p.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:17) ]
+ERROR:error!!!
+2019-04-21 17:38:13 p.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:18) ]
+FATAL:fatal!!!
+2019-04-21 17:38:16 p.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:56) ]
+ERROR:数据库成功接收结果

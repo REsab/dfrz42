@@ -1,0 +1,30 @@
+2019-04-15 09:23:26 a.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:16) ]
+WARN:warn!!!
+2019-04-15 09:23:26 a.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:17) ]
+ERROR:error!!!
+2019-04-15 09:23:27 a.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:18) ]
+FATAL:fatal!!!
+2019-04-15 09:23:29 a.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:50) ]
+WARN:数据库查询成功
+2019-04-15 09:23:29 a.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:56) ]
+ERROR:数据库成功接收结果
+2019-04-15 09:28:27 a.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:16) ]
+WARN:warn!!!
+2019-04-15 09:28:27 a.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:17) ]
+ERROR:error!!!
+2019-04-15 09:28:28 a.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:18) ]
+FATAL:fatal!!!
+2019-04-15 09:28:30 a.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:50) ]
+WARN:数据库查询成功
+2019-04-15 09:28:30 a.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:56) ]
+ERROR:数据库成功接收结果
+2019-04-15 09:28:56 a.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:16) ]
+WARN:warn!!!
+2019-04-15 09:28:56 a.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:17) ]
+ERROR:error!!!
+2019-04-15 09:28:56 a.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:18) ]
+FATAL:fatal!!!
+2019-04-15 09:28:58 a.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:50) ]
+WARN:数据库查询成功
+2019-04-15 09:28:58 a.m. [Thread: main][ Class:testLog.jdbc >> Method: testLog.jdbc.main(jdbc.java:56) ]
+ERROR:数据库成功接收结果
